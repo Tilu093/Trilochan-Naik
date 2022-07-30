@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form name="slotForm" id="slotForm" method="post">
+        <div class="form">
+            <div class="subtitle">Covid Slot Booking</div>
+            <div class="input-container ic1">
+              <input id="name" class="input" type="text" placeholder=" " required />
+              <div class="cut"></div>
+              <label for="name" class="placeholder"> Name</label>
+            </div>
+            <div class="input-container ic2">
+              <input id="email" class="input" type="email" placeholder=" " required />
+              <div class="cut cut-short"></div>
+              <label for="email" class="placeholder">Email</>
+            </div>
+            <div class="input-container ic2">
+                <input id="age" class="input" type="number" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="age" class="placeholder">Age</label>
+            </div>
+            <div class="input-container ic2">
+                <input id="phone" class="input" type="mobile" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="phone" class="placeholder">Phone</label>
+            </div>
+            <div class="input-container ic2">
+                <input id="adhaar" class="input" type="text" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="adhaar" class="placeholder">Adhaar</label>
+            </div>
+            <div class="input-container ic2">
+                <input id="address" class="input" type="address" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="address" class="placeholder">Address</label>
+            </div>
+            <div class="input-container ic2">
+                <input id="date" class="input" type="date" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="date" class="placeholder">Date</label>
+            </div>
+            <input type="submit" class="submit" value="Submit" onclick="saveData()">
+          </div>
+        </form>
+    </body>
+    <script src="userScript.js"></script>
+</html>
